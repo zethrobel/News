@@ -11,7 +11,7 @@ import Footer from "../component/Footer";
 import { TailSpin } from 'react-loader-spinner';
 function SignUp(){
     //const date= new Date().toLocaleDateString()
-    const baseUrl= "http://localhost:5000"
+    const baseUrl= "https://news-backend-sj97.onrender.com"
     const [newsUser,setNewsUser]= useState([])
     const [loading,setLoading]= useState(false)
     const navigate= useNavigate()

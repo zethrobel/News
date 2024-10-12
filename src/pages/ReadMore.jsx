@@ -8,7 +8,7 @@ function ReadMore(){
     const location= useLocation()
     const [userAuthenticated, setUserAuthenticated] = useState(false)
     const [userData, setUserData] = useState({})
-    const baseUrl = "http://localhost:5000"
+    const baseUrl = "https://news-backend-sj97.onrender.com"
 
     const { title, content, img, description, link, pubDate, author, source } = location.state
 

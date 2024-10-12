@@ -10,7 +10,7 @@ function EverythingHistory(){
     const [userAuthenticated, setUserAuthenticated] = useState(false);
     const [userData,setUserData]=useState({})
     const [historyEverything,setHistoryEverything]=useState([])
-    const baseUrl = "http://localhost:5000";
+    const baseUrl = "https://news-backend-sj97.onrender.com";
 
     useEffect(() => {
            const fetchEverythingHistory = async () =>{

@@ -10,7 +10,7 @@ import axios from "axios";
 import { TailSpin } from 'react-loader-spinner';
 function SignIn() {
     const date = new Date().toLocaleDateString()
-    const baseUrl = "http://localhost:5000"
+    const baseUrl = "https://news-backend-sj97.onrender.com"
     const [newsUser, setNewsUser] = useState([])
     const [loading, setLoading] = useState(true) //loading state
     const navigate = useNavigate()

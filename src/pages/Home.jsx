@@ -8,7 +8,7 @@ function Home() {
     const navigate = useNavigate();
     const [userAuthenticated, setUserAuthenticated] = useState(false);
     const [userData,setUserData]=useState({})
-    const baseUrl = "http://localhost:5000";
+    const baseUrl = "https://news-backend-sj97.onrender.com";
 
     useEffect(() => {
         const checkAuth = async () => {

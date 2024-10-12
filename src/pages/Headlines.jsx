@@ -13,7 +13,7 @@ function Headlines() {
     const [userData, setUserData] = useState({});
     const [searchedData, setSearchedData] = useState([]);
     const [loading,setLoading]=useState(true)
-    const baseUrl = "http://localhost:5000";
+    const baseUrl = "https://news-backend-sj97.onrender.com";
 
     useEffect(() => {
         const fetchHeadlines = async () => {

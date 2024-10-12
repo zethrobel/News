@@ -9,7 +9,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import HistoryIcon from '@mui/icons-material/History';
 import FirstPageIcon from '@mui/icons-material/FirstPage';
 function Navbar(props){
-    const baseUrl= "http://localhost:5000"
+    const baseUrl= "https://news-backend-sj97.onrender.com"
 
     axios.post(baseUrl +"/home/:id")
          .then(res=>{

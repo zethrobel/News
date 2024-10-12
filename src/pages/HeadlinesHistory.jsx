@@ -12,7 +12,7 @@ function HeadlinesHistory(){
     const [historyHeadlines,setHistoryHeadlines]= useState([])
     const [userData,setUserData]=useState({})
    
-    const baseUrl = "http://localhost:5000";
+    const baseUrl = "https://news-backend-sj97.onrender.com";
 
     useEffect(() => {
          const fetchHeadlinesHistory = async () =>{
