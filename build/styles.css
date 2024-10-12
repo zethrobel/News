@@ -1,0 +1,331 @@
+
+body{
+    background-color: rgb(255, 255, 255);
+   
+}
+footer{
+  text-align: center;
+  color: rgb(19, 132, 163);
+}
+.navbar-brand{
+    height: 4em;
+    width: 4em;
+    border-radius: 100%;
+    background-color: rgb(153, 229, 247);
+}
+.navbarSec{
+  padding-bottom:  15%;
+}
+@media  (max-width: 800px) {
+  .navbarSec{
+    padding-bottom: 27%;
+  }
+   footer{
+     padding-top: 10%;
+    }
+ 
+}
+ @media (max-width: 385px){
+    .navbarSec{
+      padding-bottom: 38%;
+    }
+   
+  }
+.homeButton{
+  text-align: center;
+  padding-top: 15% ;
+}
+.homeButton a{
+  margin: 1rem;
+}
+.container-fluid{
+    background-color: rgb(186, 233, 244);
+}
+.homeDescription{
+  color: rgb(19, 132, 163);
+}
+.front-img{
+    margin-top: 12%;
+}
+.w-source{
+    width:180px;
+    margin: 1% 1%;
+}
+.imageHeader{
+    padding: 4% 0%;
+    color: rgb(97, 219, 247);
+}
+.coverParagraph{
+    padding: 4% 0%;
+    color: rgb(3, 40, 162);
+    font-family: "Montserrat", sans-serif;
+    line-height: 2;
+    text-align: center;
+}
+.form-signin {
+  max-width: 330px;
+  padding: 2.2rem;
+  text-align: center;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.buttonMargin{
+  margin-top: 1dvh;
+}
+
+.offcanvas-header{
+  background-color: #a0e1f3;
+}
+.offcanvas-body {
+    background-color: #d7ecf7; /* Change this to your desired body color */
+}
+.offcanvas-nav .nav-link{
+  color:#04839c;
+}
+.offcanvas-nav p {
+  color:#086c7de3;
+}
+.offcanvas-nav h6{
+color: #03627ce3;
+}
+/*for news page */
+
+
+#store-list img {
+    width: 100%;
+    height: 170px;
+    border: 5px solid #ecf0f1;
+    margin-bottom: 7px;
+}
+
+#store-list h4.title-store a:hover {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+     color:rgb(3, 40, 162);
+}
+
+#store-list h4.title-store a {
+   
+    color:rgb(19, 132, 163);
+    text-decoration: none;
+}
+
+
+
+.btn.btn-default {
+    border-color: #bdc3c7;
+    background-color: #bdc3c7;
+    border: 1px solid #bdc3c7;
+}
+
+
+/* for readMore */
+
+
+.blog .image {
+    height: 250px;
+    overflow: hidden;
+    border-radius: 3px 0 0 3px;
+}
+.blog a{
+  text-decoration: none;
+}
+.blog .image img {
+    display:block;
+    width:100%;
+    height:auto;
+}
+
+.blog .date {
+    top: -10px;
+    z-index: 99;
+    width: 65px;
+    right: -10px;
+    height: 65px;
+    padding: 10px;
+    position: absolute;
+    color:#FFFFFF;
+    font-weight:bold;
+    background: #5bc0de;
+    border-radius: 999px;
+}
+
+.blog .blog-details {
+    padding: 0 20px 0 0;
+    color: rgb(19, 132, 163);
+}
+
+.readMore-details{
+  padding-top: 2%;
+  color: rgb(19, 132, 163);
+}
+
+.readMore-details a{
+  text-decoration: none;
+   color: rgb(19, 69, 163);
+}
+
+.readMore-details a:hover{
+  color: rgb(16, 4, 68);
+}
+
+.readMore-details strong{
+  font-family: "Montserrat", sans-serif;
+}
+
+.blog {
+    padding: 0;
+}
+
+.well {
+    border: 0;
+    padding: 20px;
+    min-height: 63px;
+    background: #fff;
+    box-shadow: none;
+    border-radius: 3px;
+    position: relative;
+    max-height: 100000px;
+    border-bottom: 2px solid #ccc;
+}
+
+.blog .blog-details h2 {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.blog .date .blog-number {
+    color: #fff;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+} 
+
+/* History */
+
+.history-list-container { 
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    font-family: Arial, sans-serif; 
+}
+
+
+.delete-all-button:hover { 
+    background-color: #d62839; 
+}
+
+.history-items { 
+    display: flex; 
+    flex-direction: column; 
+    border: 1px solid #effcffbd; 
+    border-radius: 5px; 
+    padding: 10px; 
+    margin: 10px 0; 
+    background-color: #f5feff; 
+   
+   
+}
+.history-items p{
+  color: rgb(18, 91, 107);
+  font-family: "Montserrat", sans-serif;
+}
+.history-items a{
+  text-decoration: none;
+   color: rgb(19, 69, 163);
+}
+
+.history-items a:hover{
+  color: rgb(16, 4, 68);
+}
+
+.history-item { 
+    display: flex; 
+  
+}
+
+.history-item img { 
+    width: 50%; 
+    height: 20%; 
+    border-radius: 5px; 
+    margin-right: 20px; 
+}
+
+.history-item-details { 
+    flex: 1; 
+}
+.history-item-details h2{
+   color: rgb(97, 190, 247);
+}
+
+.delete-button { 
+    background-color:  #6595e9e3; 
+    color: rgb(255, 255, 255); 
+    border: none; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    width: 15%;
+    
+    
+}
+
+.delete-button:hover { 
+    background-color: #4bd8ff; 
+}
+
+/* Media Query for responsive design on small screens */
+@media (max-width: 600px) {
+    .history-item { 
+        flex-direction: column; /* Stack image and details on top of each other */
+    }
+
+    .history-item img { 
+        margin: 0 0 10px 0; /* Remove margin and add space at the bottom */
+        width: 100%; /* Make image take full width of the container */
+    }
+
+    .history-item-details { 
+        text-align: left; /* Align text to left for better readability */
+    }
+    
+}
+
+.scrollToTopBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    bottom: 20px; /* 20px from the bottom */
+    right: 30px; /* 30px from the right */
+    z-index: 100; /* Sit on top */
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+    background-color: #007BFF; /* Blue background */
+    color: white; /* White text */
+    cursor: pointer; /* Pointer/hand icon */
+    padding: 15px; /* Some padding */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+.scrollToTopBtn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

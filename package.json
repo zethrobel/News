@@ -18,12 +18,14 @@
     "reactstrap": "^9.2.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+   
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "gh-pages-clean": "rimraf some-directory-or-file",
+    "eject": "react-scripts eject",
+     "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
@@ -38,6 +40,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.2.0"
+    "gh-pages": "^6.2.0",
+    "rimraf": "^6.0.1",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
