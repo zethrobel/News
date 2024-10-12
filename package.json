@@ -1,7 +1,7 @@
 {
   "name": "newsagg",
   "version": "0.1.0",
-  "homepage": "https://zethrobel.github.io/News",
+
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.4",
@@ -22,10 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "gh-pages-clean": "rimraf some-directory-or-file",
+  
     "eject": "react-scripts eject",
-     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+  
   },
   "browserslist": {
     "production": [
@@ -38,10 +37,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.2.0",
-    "rimraf": "^6.0.1",
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
