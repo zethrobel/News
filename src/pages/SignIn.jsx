@@ -15,18 +15,18 @@ function SignIn() {
     const [loading, setLoading] = useState(true) //loading state
     const navigate = useNavigate()
 
-   useEffect(() => {
-    axios
-        .get(baseUrl + "/home")
-        .then((res) => {
-            setNewsUser(res.data);
-            // setLoading(true) //loading becomes false after data fetched
-        })
-        .catch((err) => {
-            console.error(err);
-            setLoading(false); //loading becomes false if there is error
-        });
-}, []);
+//    useEffect(() => {
+//     axios
+//         .get(baseUrl + "/home")
+//         .then((res) => {
+//             setNewsUser(res.data);
+//             // setLoading(true) //loading becomes false after data fetched
+//         })
+//         .catch((err) => {
+//             console.error(err);
+//             setLoading(false); //loading becomes false if there is error
+//         });
+// }, []);
 
 async function checkUser(newUser) {
     setLoading(true);
