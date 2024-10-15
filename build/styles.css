@@ -20,16 +20,12 @@ footer{
   .navbarSec{
     padding-bottom: 27%;
   }
-   footer{
-     padding-top: 10%;
-    }
  
 }
  @media (max-width: 385px){
     .navbarSec{
       padding-bottom: 38%;
     }
-   
   }
 .homeButton{
   text-align: center;
@@ -307,7 +303,6 @@ color: #03627ce3;
     .history-item-details { 
         text-align: left; /* Align text to left for better readability */
     }
-    
 }
 
 .scrollToTopBtn {
