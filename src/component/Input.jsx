@@ -21,13 +21,13 @@ function Input(props){
         }
        })
     }
-   function submitUser(event) {
+   const submitUser=async(event)=> {
 
     event.preventDefault()
 
     
 
-    props.onAdd(newsUser);
+    await props.onAdd(newsUser);
     setNewsUser({username: "", password: ""});
 
 }

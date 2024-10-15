@@ -34,7 +34,7 @@ async function checkUser(newUser) {
         const res = await axios.post(baseUrl + "/signin", newUser, {withCredentials: true});
         console.log(baseUrl+"/signin")
         console.log(res.data);
-        navigate("/home");
+        navigate("/home",{withCredentials: true});
     } catch (err) {
         console.error(err);
         navigate("/failed");
