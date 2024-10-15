@@ -1,7 +1,7 @@
 {
   "name": "newsagg",
   "version": "0.1.0",
-  "homepage": "https://zethrobel.github.io/News",
+  
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.4",
@@ -18,8 +18,7 @@
     "reactstrap": "^9.2.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
@@ -36,8 +35,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.2.0"
   }
+ 
 }
