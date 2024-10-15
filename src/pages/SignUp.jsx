@@ -50,7 +50,7 @@ function SignUp(){
             })
             .then((res) => {
                 console.log(res.data);
-                navigate("/home",{withCredentials: true}); // Navigate to the home page after successful login
+                navigate("/home"); // Navigate to the home page after successful login
             })
             .catch((err) => {
                 console.error(err);

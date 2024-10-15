@@ -17,7 +17,7 @@ function SignIn() {
 
    useEffect(() => {
     axios
-        .get(baseUrl + "/home",{withCredentials: true})
+        .get(baseUrl + "/home")
         .then((res) => {
             setNewsUser(res.data);
             // setLoading(true) //loading becomes false after data fetched
@@ -34,7 +34,7 @@ async function checkUser(newUser) {
         const res = await axios.post(baseUrl + "/signin", newUser, {withCredentials: true});
         console.log(baseUrl+"/signin")
         console.log(res.data);
-        navigate("/home",{withCredentials: true});
+        navigate("/home");
     } catch (err) {
         console.error(err);
         navigate("/failed");
