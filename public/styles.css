@@ -6,7 +6,7 @@ body{
 footer{
   text-align: center;
   color: rgb(19, 132, 163);
-  padding-top: 10%;
+  padding-top: 7%;
 }
 .navbar-brand{
     height: 4em;
@@ -277,7 +277,7 @@ color: #03627ce3;
     flex: 1; 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 650px) {
     .history {
         display: flex;
         justify-content: space-between; /* Aligns items in the same line with space between */
