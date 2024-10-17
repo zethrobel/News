@@ -277,7 +277,7 @@ color: #03627ce3;
     flex: 1; 
 }
 
-@media (max-width: 650px) {
+@media (max-width: 500px) {
     .history {
         display: flex;
         justify-content: space-between; /* Aligns items in the same line with space between */
