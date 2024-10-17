@@ -12,10 +12,14 @@ function Coverpage(){
               easy-to-navigate interface, allowing you to personalize your experience and stay up-to-date on the topics that matter most of you. </p> 
              
            <div style={{height:"150px"}}>
-            <h3 className="imageHeader">Our sources are </h3>
-             {sourceImages.map((image)=>{
-             return  <img className="img-thumbnail w-source h-100 d-inline-block img-fluid" src={image.src}/>
-             })}
+              
+                <h3 className="imageHeader">Our sources are</h3>
+            <div>
+                    {sourceImages.map((image, index) => (
+                        <img key={index} className="img-thumbnail img-fluid w-source h-100 d-inline-block" src={image.src} alt={`Source ${index + 1}`} />
+                    ))}
+              </div>  
+              
             
             <div className="footerNote">
             <p className="coverParagraph">Stay informed and engaged with the world's most important stories. <a style={{textDecoration:"none"}} href="/signup">Sign up</a> or <a style={{textDecoration:"none"}} href="/signin">Sign in</a> today 
