@@ -6,6 +6,7 @@ body{
 footer{
   text-align: center;
   color: rgb(19, 132, 163);
+  padding-top: 10%;
 }
 .navbar-brand{
     height: 4em;
@@ -26,9 +27,7 @@ footer{
     .navbarSec{
       padding-bottom: 38%;
     }
-    footer{
-      padding-top:10%
-    }
+   
   }
 .homeButton{
   text-align: center;
@@ -277,6 +276,24 @@ color: #03627ce3;
 .history-item-details { 
     flex: 1; 
 }
+
+@media (max-width: 400px) {
+    .history {
+        display: flex;
+        justify-content: space-between; /* Aligns items in the same line with space between */
+        align-items: center; /* Centers items vertically */
+    }
+
+    .btn-history {
+        display: flex; /* Allows buttons to align in the same line */
+        flex-direction: row; /* Ensures buttons are in a row */
+    }
+
+    .deleteAll {
+        margin-left: 10px; /* Adds a little spacing between the buttons and the delete button */
+    }
+}
+
 .history-item-details h2{
    color: rgb(97, 190, 247);
 }
