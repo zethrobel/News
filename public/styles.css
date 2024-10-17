@@ -26,6 +26,9 @@ footer{
     .navbarSec{
       padding-bottom: 38%;
     }
+    footer{
+      padding-top:10%
+    }
   }
 .homeButton{
   text-align: center;
@@ -59,7 +62,7 @@ footer{
     text-align: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     .img-thumbnail {
         width: calc(50% - 10px); /* Two images in rows for small screens */
     }
