@@ -58,6 +58,12 @@ footer{
     line-height: 2;
     text-align: center;
 }
+
+@media (max-width: 600px) {
+    .img-thumbnail {
+        width: calc(50% - 10px); /* Two images in rows for small screens */
+    }
+}
 .form-signin {
   max-width: 330px;
   padding: 2.2rem;
